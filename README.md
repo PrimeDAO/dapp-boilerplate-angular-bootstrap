@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
+## Features
+
+--Gets web3 provider from Metamask
+--Shows ETH and ERC20 token balances
+--Dynamically changes addresses when user changes them in Metamask
+--Dynamically changes and displays network when user changes them in Metamask
+--Allows user to disconnect dapp from wallet
+
 ## Bootstrap Dependency
 
 This project uses Bootstrap version 4.1.1 loaded from the Bootstrap CDN (see the `index.html` file). There are alternate ways to add the Bootstrap dependencies to an Angular project directly if you don't want to take a dependency on the CDN. 
