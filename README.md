@@ -4,11 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Features
 
---Gets web3 provider from Metamask
---Shows ETH and ERC20 token balances
---Dynamically changes addresses when user changes them in Metamask
---Dynamically changes and displays network when user changes them in Metamask
---Allows user to disconnect dapp from wallet
+* Gets web3 provider from Metamask
+* Shows ETH and ERC20 token balances
+* Dynamically changes addresses when user changes them in Metamask
+* Dynamically changes and displays network when user changes them in Metamask
+* Allows user to disconnect dapp from wallet
 
 ## Bootstrap Dependency
 
