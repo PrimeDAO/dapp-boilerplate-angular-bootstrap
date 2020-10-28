@@ -1,0 +1,17 @@
+<main role="main">
+
+        <section class="jumbotron text-center">
+          <div *ngIf="hasWeb3" class="container">
+            <h1 class="jumbotron-heading">Connect Wallet</h1>
+            <p>
+              <button (click)="connect()" class="btn btn-primary my-2">Connect Metamask</button>
+            </p>
+          </div>
+          <div *ngIf="!hasWeb3" class="container">
+                <h1 class="jumbotron-heading">Install Ethereum Wallet To Continue</h1>
+                <p>
+                  <a href="#" class="btn btn-primary my-2">Install</a>
+                </p>
+              </div>
+            </section>
+</main>  

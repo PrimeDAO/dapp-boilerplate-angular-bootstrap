@@ -1,0 +1,31 @@
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My dApp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"  id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#" >Features</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+            {{network}}
+      </span>      
+      <span class="navbar-text">
+        <a *ngIf="address"
+        routerLink="/dashboard" 
+        class="nav-link" data-toggle="collapse" data-target="#navbarText" >
+        {{address}}
+      </a>  
+      <a *ngIf="!address"
+        routerLink="/login" 
+        class="nav-link" data-toggle="collapse" data-target="#navbarText"  >
+        Connect Wallet
+      </a>
+
+      </span>
+    </div>
+  </nav>
+</header>
