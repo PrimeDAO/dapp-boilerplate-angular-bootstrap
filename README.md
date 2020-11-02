@@ -39,7 +39,7 @@ The project uses best practices as of October 2020 for connecting to a web3 prov
 
 Future work could support other wallets which could be added in the login component. 
 
-It uses the ethers library for connecting to smart contracts and shows how to displays erc20 balances.
+It uses the ethers library for connecting to smart contracts and shows how to displays erc20 balances. Future work could support more sophisticated smart contract interaction.
 
 ## Development server
 
