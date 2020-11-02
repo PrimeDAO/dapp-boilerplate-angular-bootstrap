@@ -39,6 +39,8 @@ The project uses best practices as of October 2020 for connecting to a web3 prov
 
 Future work could support other wallets which could be added in the login component. 
 
+It uses the ethers library for connecting to smart contracts and shows how to displays erc20 balances.
+
 ## Development server
 
 Run npm or yarn to install dependencies and then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -59,7 +61,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Deployment
 
 ## Further help
 
